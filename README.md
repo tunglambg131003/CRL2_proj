@@ -22,4 +22,10 @@
 
 - Integrate in telegram
 
-    Open credential.yml, replace access_token, verify and webhook_url by your bot information 
+    Open credential.yml, replace access_token, verify (your botname) and webhook_url by your bot information, then run:
+
+    rasa run -m models --enable-api --cors “*” --debug
+
+  
+
+
